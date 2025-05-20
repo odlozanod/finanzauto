@@ -26,5 +26,5 @@ Aplicación desarrollada en **React** que permite la autenticación simulada de 
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
-cd tu-repo
+git clone https://github.com/odlozanod/finanzauto.git
+cd finanzauto
