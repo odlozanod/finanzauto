@@ -42,3 +42,45 @@ npm install
 npm run dev
 ```
 
+## 🔐 Autenticación Simulada
+ 
+- Se simula un login con cualquier nombre de usuario y contraseña.
+- Al iniciar sesión, se guarda un token ficticio tipo Bearer en localStorage.
+- El sistema redirige automáticamente a la pantalla principal si el token está presente.
+- Al cerrar sesión, se elimina el token y se regresa al login.
+
+## 🌐 Consumo de API
+ 
+```bash
+// src/api/userApi.ts
+
+const API = axios.create({
+  baseURL: 'https://dummyapi.io/data/v1',
+  headers: {
+    'app-id': '63473330c1927d386ca6a3a5', 
+  },
+});
+
+```
+
+## 📸 Funcionalidades
+ 
+- Inicio de sesión (simulado)
+- Redirección automática según autenticación
+- Tabla paginada de usuarios
+- Búsqueda de usuarios
+- Botones de acciones (ver, editar, eliminar - simulados)
+- Mostrar foto o texto "Sin imagen"
+- Estilos con color personalizado principal #1A6E6A
+
+## 📸 Video demostrativo
+
+[![Mira el video](https://micertificacion.com/wp-content/uploads/2025/05/2025-05-20-07-27-49.mp4)]([https://www.youtube.com/watch?v=ID_DEL_VIDEO](https://micertificacion.com/wp-content/uploads/2025/05/2025-05-20-07-27-49.mp4))
+
+
+## 🧑‍💻 Autor
+
+Desarrollado por [Oscar Lozano]
+
+📫 Contacto: [diazdaniel30@hotmail.com]
+
