@@ -28,3 +28,14 @@ Aplicación desarrollada en **React** que permite la autenticación simulada de 
 ```bash
 git clone https://github.com/odlozanod/finanzauto.git
 cd finanzauto
+
+2. Instalar Dependencias:
+
+```bash
+npm install
+
+3. Ejecutar el Proyecto en Desarrollo
+
+```bash
+npm run dev
+
