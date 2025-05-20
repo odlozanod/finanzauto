@@ -18,7 +18,7 @@ Aplicación desarrollada en **React** que permite la autenticación simulada de 
 - TypeScript
 - Axios
 - React Router
-- Bootstrap o CSS personalizado
+- Bootstrap y CSS personalizado
 - localStorage (para token Bearer simulado)
 
 ## 🚀 Instalación
