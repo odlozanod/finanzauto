@@ -75,10 +75,8 @@ const API = axios.create({
 
 ## 📸 Video demostrativo
 
-<video width="320" height="240" controls>
-  <source src="https://micertificacion.com/wp-content/uploads/2025/05/2025-05-20-07-27-49.mp4" type="video/mp4">
-  Tu navegador no soporta el video.
-</video>
+[![Ver video](https://micertificacion.com/wp-content/uploads/2025/05/thumb.jpg)](https://micertificacion.com/wp-content/uploads/2025/05/2025-05-20-07-27-49.mp4)
+
 
 
 
